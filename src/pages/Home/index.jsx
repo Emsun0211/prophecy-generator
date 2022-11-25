@@ -1,5 +1,9 @@
 import React from "react";
+import 'tw-elements';
+import Prophecy from "../../component/Prophecy/Prophecy";
 
-export const index = () => {
-	return <div>index</div>;
+export const Index = () => {
+  return <div>
+	<Prophecy />
+  </div>;
 };
