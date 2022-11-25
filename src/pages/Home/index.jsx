@@ -1,5 +1,10 @@
 import React from "react";
+import { Navbar } from "../../component/Navbar";
 
-export const index = () => {
-	return <div>index</div>;
+export const Home = () => {
+	return (
+		<>
+			<Navbar />
+		</>
+	);
 };
