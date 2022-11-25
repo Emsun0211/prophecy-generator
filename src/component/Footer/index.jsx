@@ -41,12 +41,12 @@ const Footer = () => {
 
           <span className="flex">
             <IoIosPin className="text-blue-500" />
-            <p>+23801288848</p>
+            <p>Zuri Chapel Ministeries</p>
           </span>
 
           <span className="flex">
             <IoIosMail className="text-blue-500" />
-            <p>+23801288848</p>
+            <p>zuri.chap@gov.uk</p>
           </span>
         </div>
         <div className="py-2.5">
