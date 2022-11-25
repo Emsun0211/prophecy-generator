@@ -26,7 +26,7 @@ export const Contact = () => {
 				</div>
 				<button
 					type='submit'
-					className='bg-blue-900 p-2 my-2 mb-4 rounded text-white w-full mb:w-1/2'>
+					className='bg-blue-900 p-2 my-2 mb-4 rounded text-white w-full mb:w-1/2 hover:bg-blue-600'>
 					Send
 				</button>
 			</form>

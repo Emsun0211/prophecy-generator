@@ -9,16 +9,16 @@ export const About = () => {
 				</h2>
 			</div>
 			<section className='w-1/2 mx-2'>
-				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center'>
+				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center hover:bg-blue-700 hover:text-white'>
 					<p>Prophecies Documentation</p>
 				</div>
-				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center'>
+				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center hover:bg-blue-700 hover:text-white'>
 					<p>Prophecies Tracking</p>
 				</div>
-				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center'>
+				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center hover:bg-blue-700 hover:text-white'>
 					<p>Prophecies Search</p>
 				</div>
-				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center'>
+				<div className='bg-sky-100 p-2 mb-2 rounded flex items-center hover:bg-blue-700 hover:text-white'>
 					<p>Prophecies Translation</p>
 				</div>
 			</section>
