@@ -1,11 +1,17 @@
 body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 button.border-none.navbar-toggler.collapsed {
-    border: none;
+  border: none;
+}
+
+a.text-blue-500.navlink.nav-link,
+a.text-blue-500.navlink.navbar-brand {
+  color: blue;
 }
 
 @tailwind base;
