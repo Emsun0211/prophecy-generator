@@ -6,28 +6,28 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="blue" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/" className="text-blue-500 navlink">
+        <Navbar.Brand href="/" className="text-light navlink">
           Prophecy Generator
         </Navbar.Brand>
         <Navbar.Toggle className="border-none" aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="ms-auto my-2 text-blue-500 text-center my-lg-0"
+            className="ms-auto my-2 text-light text-center my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="/" className="text-blue-500 navlink">
+            <Nav.Link href="/" className="text-light navlink">
               Home
             </Nav.Link>
-            <Nav.Link href="#action2" className="text-blue-500 navlink">
+            <Nav.Link href="#action2" className="text-light navlink">
               Prophecies
             </Nav.Link>
-            <Nav.Link href="#action2" className="text-blue-500 navlink">
+            <Nav.Link href="#action2" className="text-light navlink">
               About
             </Nav.Link>
-            <Nav.Link href="#action2" className="text-blue-500 navlink">
+            <Nav.Link href="#action2" className="text-light navlink">
               Contact
             </Nav.Link>
           </Nav>

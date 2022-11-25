@@ -14,6 +14,10 @@ a.text-blue-500.navlink.navbar-brand {
   color: blue;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-blue {
+  background: rgb(59 130 246);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
